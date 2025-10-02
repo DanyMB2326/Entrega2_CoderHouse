@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Centro de Natación Mantarrayas</title>
+
+  <!-- ==================== BOOTSTRAP CSS ==================== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- ==================== ESTILOS PROPIOS ==================== -->
+  <link rel="stylesheet" href="../css/advanced.css">
+</head>
+<body>
+  <!-- ==================== HEADER / BARRA DE NAVEGACIÓN ==================== -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <!-- Logo y nombre del centro -->
+        <a class="navbar-brand d-flex align-items-center" href="../index.html">
+          <img src="../images/logo.png" alt="Logotipo del Centro de Natación Mantarrayas" width="50" height="50" class="me-2">
+          <span class="fw-bold">Mantarrayas</span>
+        </a>
+
+        <!-- Botón hamburguesa para dispositivos móviles -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú de navegación -->
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="horarios.html">Horarios</a></li>
+            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ==================== MAIN / CONTENIDO PRINCIPAL ==================== -->
+  <main class="py-5">
+    <div class="container">
+      <!-- ==================== ENCABEZADO DE LA SECCIÓN ==================== -->
+      <div class="text-center mb-5">
+        <h1 class="section-title">Horarios de Clases</h1>
+        <p class="lead text-muted">Organiza tu semana y elige el mejor momento para nadar.</p>
+      </div>
+
+      <!-- ==================== TABLA DE HORARIOS ==================== -->
+      <div class="table-responsive">
+        <table class="table table-striped table-hover text-center schedule-table">
+          <!-- Cabecera de la tabla -->
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">Hora</th>
+              <th scope="col">Lunes</th>
+              <th scope="col">Martes</th>
+              <th scope="col">Miércoles</th>
+              <th scope="col">Jueves</th>
+              <th scope="col">Viernes</th>
+              <th scope="col">Sábado</th>
+            </tr>
+          </thead>
+
+          <!-- Cuerpo de la tabla con horarios -->
+          <tbody>
+            <tr>
+              <th scope="row">07:00 - 08:00</th>
+              <td>Adultos</td>
+              <td>Nado Libre</td>
+              <td>Adultos</td>
+              <td>Nado Libre</td>
+              <td>Adultos</td>
+              <td>Equipo Competitivo</td>
+            </tr>
+            <tr>
+              <th scope="row">08:00 - 09:00</th>
+              <td>Nado Libre</td>
+              <td>Nado Libre</td>
+              <td>Nado Libre</td>
+              <td>Nado Libre</td>
+              <td>Nado Libre</td>
+              <td>Equipo Competitivo</td>
+            </tr>
+            <tr>
+              <th scope="row">15:00 - 16:00</th>
+              <td>Niños (4-6 años)</td>
+              <td>Niños (7-9 años)</td>
+              <td>Niños (4-6 años)</td>
+              <td>Niños (7-9 años)</td>
+              <td>Nado Libre</td>
+              <td>Bebés (1-3 años)</td>
+            </tr>
+            <tr>
+              <th scope="row">16:00 - 17:00</th>
+              <td>Niños (7-9 años)</td>
+              <td>Niños (10-12 años)</td>
+              <td>Niños (7-9 años)</td>
+              <td>Niños (10-12 años)</td>
+              <td>Nado Libre</td>
+              <td>Bebés (1-3 años)</td>
+            </tr>
+            <tr>
+              <th scope="row">17:00 - 18:00</th>
+              <td>Adultos Principiantes</td>
+              <td>Adultos Intermedios</td>
+              <td>Adultos Principiantes</td>
+              <td>Adultos Intermedios</td>
+              <td>Nado Libre</td>
+              <td>Nado Libre</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <!-- ==================== FOOTER / PIE DE PÁGINA ==================== -->
+  <footer class="site-footer bg-dark text-black py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <p class="mb-2 mb-md-0 small">&copy; 2025 Centro de Natación Mantarrayas</p>
+      <!-- Redes sociales -->
+      <nav aria-label="Redes sociales">
+        <ul class="nav">
+          <li class="nav-item"><a href="https://www.facebook.com/centro.natacion.mantarrayas" class="nav-link text-black small" target="_blank">Facebook</a></li>
+          <li class="nav-item"><a href="https://www.instagram.com/centro_natacion_mantarrayas/" class="nav-link text-black small" target="_blank">Instagram</a></li>
+          <li class="nav-item"><a href="https://www.tiktok.com/@centro.natacion.mantarrayas" class="nav-link text-black small" target="_blank">TikTok</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- ==================== SCRIPTS DE BOOTSTRAP ==================== -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

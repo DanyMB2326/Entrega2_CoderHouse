@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Centro de Natación Mantarrayas</title>
+
+  <!-- ==================== BOOTSTRAP CSS ==================== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- ==================== ESTILOS PROPIOS ==================== -->
+  <link rel="stylesheet" href="../css/advanced.css">
+</head>
+<body>
+  <!-- ==================== HEADER / BARRA DE NAVEGACIÓN ==================== -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <!-- Logo y nombre del centro -->
+        <a class="navbar-brand d-flex align-items-center" href="../index.html">
+          <img src="../images/logo.png" alt="Logotipo del Centro de Natación Mantarrayas" width="50" height="50" class="me-2">
+          <span class="fw-bold">Mantarrayas</span>
+        </a>
+
+        <!-- Botón hamburguesa para dispositivos móviles -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú de navegación -->
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="horarios.html">Horarios</a></li>
+            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ==================== MAIN / CONTENIDO PRINCIPAL ==================== -->
+  <main class="py-5">
+    <div class="container">
+      <!-- Encabezado de sección -->
+      <div class="text-center mb-5">
+        <h1 class="section-title">Ponte en Contacto</h1>
+        <p class="lead text-muted">¿Tienes dudas o estás listo para inscribirte? ¡Nos encantará escucharte!</p>
+      </div>
+
+      <div class="row g-5">
+        <!-- ==================== FORMULARIO DE CONTACTO ==================== -->
+        <div class="col-lg-7">
+          <h2 class="h4 mb-3">Envíanos un mensaje</h2>
+          <form class="needs-validation" novalidate>
+            <div class="row g-3">
+              <!-- Nombre -->
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="firstName" required>
+                <div class="invalid-feedback">Tu nombre es requerido.</div>
+              </div>
+              <!-- Apellido -->
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="lastName" required>
+                <div class="invalid-feedback">Tu apellido es requerido.</div>
+              </div>
+              <!-- Email -->
+              <div class="col-12">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="tu@email.com" required>
+                <div class="invalid-feedback">Por favor ingresa un email válido.</div>
+              </div>
+              <!-- Mensaje -->
+              <div class="col-12">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="5" required></textarea>
+                <div class="invalid-feedback">Por favor escribe tu mensaje.</div>
+              </div>
+            </div>
+            <hr class="my-4">
+            <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar Mensaje</button>
+          </form>
+        </div>
+
+        <!-- ==================== INFORMACIÓN DEL CENTRO Y MAPA ==================== -->
+        <div class="col-lg-5">
+          <div class="contact-info p-4 rounded-3">
+            <h2 class="h4 mb-3">Información</h2>
+            <p><i class="fas fa-map-marker-alt me-2"></i><strong>Dirección:</strong> Calle de las Piscinas No. 123, Ciudad Acuática.</p>
+            <p><i class="fas fa-phone me-2"></i><strong>Teléfono:</strong> +52 55 1234 5678</p>
+            <p><i class="fas fa-envelope me-2"></i><strong>Email:</strong> info@mantarrayas.com</p>
+            <hr>
+            <!-- Mapa de Google Maps -->
+            <div class="ratio ratio-4x3">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.661138887963!2d-99.17888732569528!3d19.42692204033784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sEl%20%C3%81ngel%20de%20la%20Independencia!5e0!3m2!1ses-419!2smx!4v1709772338271!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ==================== FOOTER / PIE DE PÁGINA ==================== -->
+  <footer class="site-footer bg-dark text-black py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <p class="mb-2 mb-md-0 small">&copy; 2025 Centro de Natación Mantarrayas</p>
+      <!-- Redes sociales -->
+      <nav aria-label="Redes sociales">
+        <ul class="nav">
+          <li class="nav-item"><a href="https://www.facebook.com/centro.natacion.mantarrayas" class="nav-link text-black small" target="_blank">Facebook</a></li>
+          <li class="nav-item"><a href="https://www.instagram.com/centro_natacion_mantarrayas/" class="nav-link text-black small" target="_blank">Instagram</a></li>
+          <li class="nav-item"><a href="https://www.tiktok.com/@centro.natacion.mantarrayas" class="nav-link text-black small" target="_blank">TikTok</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- ==================== SCRIPTS DE BOOTSTRAP ==================== -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+/* ========================= VARIABLES ========================= */
+:root {
+  --primary: #F6B103;        /* amarillo dorado */
+  --primary-800: #FF8400;    /* naranja secundario / acento */
+  --muted: #6c757d;
+  --bg: #ffffff;
+  --surface: #fff7f0;
+  --container-max: 1200px;
+
+  --radius-lg: 1rem;
+  --shadow-soft: 0 6px 18px rgba(0,0,0,0.08);
+  --gap: 1rem;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* ========================= RESET Y TIPOGRAFÍA ========================= */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  font-family: var(--font-sans);
+  margin: 0;
+  background: linear-gradient(180deg, var(--bg) 0%, var(--surface) 100%);
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.45;
+  font-size: clamp(14px, 1.4vw, 16px);
+}
+body > * { padding-left: 0; padding-right: 0; }
+
+/* ========================= CONTENEDOR ========================= */
+.container {
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+/* ========================= HEADER / NAVBAR ========================= */
+.site-header, .navbar {
+  background-color: var(--primary) !important;
+  box-shadow: var(--shadow-soft);
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #222 !important;
+  font-weight: 500;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+  color: var(--primary-800) !important;
+  text-decoration: underline;
+}
+.navbar-toggler {
+  border-color: var(--primary-800) !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,132,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* ========================= HERO ========================= */
+.hero .display-6 { margin-bottom: .5rem; color: var(--primary-800); }
+.hero .lead { color: #334155; }
+
+/* ========================= CARDS ========================= */
+.card {
+  border: none;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.card img {
+  object-fit: cover;
+  height: 220px;
+  width: 100%;
+  display: block;
+}
+.card .card-body { padding: .75rem .9rem; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.12); }
+
+/* ========================= BOTONES ========================= */
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: #222;
+  font-weight: 500;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--primary-800);
+  border-color: var(--primary-800);
+  color: #fff;
+}
+
+.btn-outline-primary {
+  background-color: transparent;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: var(--primary);
+  border-color: var(--primary-800);
+  color: #222;
+}
+
+/* ========================= FOOTER ========================= */
+.site-footer {
+  background-color: var(--primary) !important;
+  color: #222;
+  border-top: 1px solid rgba(0,0,0,.08);
+  padding: 1.5rem 0;
+  text-align: center;
+}
+.site-footer a {
+  color: var(--primary-800);
+  text-decoration: none;
+}
+.site-footer a:hover,
+.site-footer a:focus {
+  color: #222;
+  text-decoration: underline;
+}
+
+/* ========================= UTILIDADES ========================= */
+.u-shadow { box-shadow: var(--shadow-soft); }
+.u-rounded { border-radius: var(--radius-lg); }
+.text-muted { color: var(--muted) !important; }
+
+/* ========================= MEDIA QUERIES ========================= */
+@media (max-width: 767px){
+  .hero .display-6 { font-size: 1.4rem; }
+  .card img { height: 160px; }
+}
+
+/* ========================= ACCESIBILIDAD ========================= */
+a:focus-visible, button:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--primary) 30%, white);
+  outline-offset: 3px;
+  border-radius: .25rem;
+}
+
+/* ========================= ANIMACIONES ========================= */
+@media (prefers-reduced-motion: no-preference){
+  .card:hover { transform: translateY(-4px); transition: transform .18s ease; }
+}
+
+/* ========================= IMÁGENES Y ELEMENTOS RESPONSIVOS ========================= */
+img, svg, video, canvas { max-width: 100%; height: auto; }
+

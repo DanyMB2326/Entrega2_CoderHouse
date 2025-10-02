@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Centro de Natación Mantarrayas</title>
+
+  <!-- Bootstrap CSS (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="./css/advanced.css">
+</head>
+<body>
+  <!-- ==================== HEADER / BARRA DE NAVEGACIÓN ==================== -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <!-- Logo y nombre del centro -->
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="./images/logo.png" alt="Logotipo del Centro de Natación Mantarrayas" width="50" height="50" class="me-2">
+          <span class="fw-bold">Mantarrayas</span>
+        </a>
+
+        <!-- Botón hamburguesa para dispositivos móviles -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú de navegación -->
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/servicios.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/horarios.html">Horarios</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ==================== CONTENIDO PRINCIPAL ==================== -->
+  <main class="py-5">
+    <div class="container">
+      <!-- ==================== SECCIÓN HERO / PORTADA ==================== -->
+      <section class="hero mb-5">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <h1 class="display-5 fw-bold">¡Sumérgete en la diversión!</h1>
+            <p class="lead">
+              Ofrecemos clases de natación para todas las edades y niveles en un ambiente seguro y amigable.
+              Mejora tu técnica, mantente en forma y disfruta del agua con nosotros.
+            </p>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="pages/contacto.html" class="btn btn-primary btn-lg">Inscríbete</a>
+              <a href="pages/horarios.html" class="btn btn-outline-primary btn-lg">Ver horarios</a>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img src="./images/alberca.png" alt="Alberca olímpica del Centro Mantarrayas" class="img-fluid rounded shadow-sm">
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== SECCIÓN INSTALACIONES ==================== -->
+      <section aria-labelledby="instalaciones-title">
+        <h2 id="instalaciones-title" class="h3 mb-4 text-center">Nuestras instalaciones</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- Alberca -->
+          <article class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="./images/alberca.png" class="card-img-top" alt="Vista de la alberca principal">
+              <div class="card-body">
+                <h3 class="card-title h6">Alberca</h3>
+                <p class="card-text small">Carriles disponibles para clases de iniciación y entrenamientos avanzados.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Recepción -->
+          <article class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="./images/recepcion.png" class="card-img-top" alt="Área de recepción con atención al cliente">
+              <div class="card-body">
+                <h3 class="card-title h6">Recepción</h3>
+                <p class="card-text small">Atención personalizada y orientación a los visitantes.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Regaderas y vestidores -->
+          <article class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="./images/regaderas.png" class="card-img-top" alt="Vestidores y regaderas modernas">
+              <div class="card-body">
+                <h3 class="card-title h6">Regaderas y vestidores</h3>
+                <p class="card-text small">Espacios limpios, cómodos y seguros para toda la familia.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ==================== FOOTER / PIE DE PÁGINA ==================== -->
+  <footer class="site-footer bg-dark text-black py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <p class="mb-2 mb-md-0 small">&copy; 2025 Centro de Natación Mantarrayas</p>
+      <nav aria-label="Redes sociales">
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="https://www.facebook.com/centro.natacion.mantarrayas" class="nav-link text-black small" target="_blank">Facebook</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.instagram.com/centro_natacion_mantarrayas/" class="nav-link text-black small" target="_blank">Instagram</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.tiktok.com/@centro.natacion.mantarrayas" class="nav-link text-black small" target="_blank">TikTok</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- ==================== SCRIPTS DE BOOTSTRAP ==================== -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
