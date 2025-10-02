@@ -10,7 +10,7 @@ Página web del **Centro de Natación Mantarrayas**, diseñada para mostrar sus 
 - **Servicios:** Información de programas para niños, adultos y nado libre, con precios y beneficios.  
 - **Horarios:** Tabla clara de clases por grupo y nivel.  
 - **Nosotros:** Presenta al equipo de instructores con fotos y especialidades.  
-- **Contacto:** Formulario funcional, información de contacto y mapa de ubicación.  
+- **Contacto:** Formulario, información de contacto y mapa de ubicación.  
 - **Navbar y Footer:** Menú responsivo y enlaces a redes sociales.
 
 ---
@@ -23,8 +23,6 @@ Página web del **Centro de Natación Mantarrayas**, diseñada para mostrar sus 
 - **Google Maps Embed** – Ubicación del centro en la página de contacto.
 
 ---
-
-## 📁 Estructura del Proyecto
 
 ## 📁 Estructura del Proyecto
 
