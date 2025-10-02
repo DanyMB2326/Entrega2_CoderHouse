@@ -19,7 +19,6 @@ Página web del **Centro de Natación Mantarrayas**, diseñada para mostrar sus 
 
 - **HTML5** – Estructura semántica del contenido.  
 - **CSS3 y Bootstrap 5** – Diseño moderno y responsivo.  
-- **JavaScript** – Validación de formularios.  
 - **Google Maps Embed** – Ubicación del centro en la página de contacto.
 
 ---
@@ -44,6 +43,3 @@ Página web del **Centro de Natación Mantarrayas**, diseñada para mostrar sus 
 |   |   |── entrenadora2.png
 │   │   ├── entrenador1.png
 │   │   └── entrenador2.png
-
-
-
