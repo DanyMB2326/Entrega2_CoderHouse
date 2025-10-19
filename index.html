@@ -5,10 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Centro de Natación Mantarrayas</title>
 
-  <!-- Bootstrap CSS (CDN) -->
+  <!-- ===== META TAGS SEO ===== -->
+  <meta name="description" content="Centro de Natación Mantarrayas: clases de natación para todas las edades en instalaciones seguras y modernas. Aprende, mejora tu técnica y disfruta del agua con nosotros.">
+  <meta name="keywords" content="natación, alberca, clases de natación, Mantarrayas, deporte acuático, entrenamiento, piscina, escuela de natación">
+
+  <!-- ===== OPEN GRAPH (FACEBOOK / WHATSAPP) ===== -->
+  <meta property="og:title" content="Centro de Natación Mantarrayas">
+  <meta property="og:description" content="Clases de natación para todas las edades en un ambiente seguro, moderno y divertido. ¡Sumérgete con nosotros!">
+  <meta property="og:image" content="https://sitio.com/images/og-image.jpg">
+  <meta property="og:url" content="https://sitio.com">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+
+  <!-- ===== TWITTER CARD ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Centro de Natación Mantarrayas">
+  <meta name="twitter:description" content="Aprende a nadar, mejora tu técnica y disfruta del agua con Mantarrayas. ¡Clases para todas las edades!">
+  <meta name="twitter:image" content="https://tusitio.com/images/og-image.jpg">
+
+  <!-- ===== FAVICON ===== -->
+  <link rel="icon" href="./images/logo.png" type="image/png">
+
+  <!-- ===== BOOTSTRAP CSS ===== -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Estilos personalizados -->
+  <!-- ===== ESTILOS PERSONALIZADOS ===== -->
   <link rel="stylesheet" href="./css/advanced.css">
 </head>
 <body>
@@ -16,18 +37,15 @@
   <header class="site-header">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container">
-        <!-- Logo y nombre del centro -->
         <a class="navbar-brand d-flex align-items-center" href="index.html">
           <img src="./images/logo.png" alt="Logotipo del Centro de Natación Mantarrayas" width="50" height="50" class="me-2">
           <span class="fw-bold">Mantarrayas</span>
         </a>
 
-        <!-- Botón hamburguesa para dispositivos móviles -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Menú">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Menú de navegación -->
         <div class="collapse navbar-collapse" id="mainMenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
@@ -44,7 +62,7 @@
   <!-- ==================== CONTENIDO PRINCIPAL ==================== -->
   <main class="py-5">
     <div class="container">
-      <!-- ==================== SECCIÓN HERO / PORTADA ==================== -->
+      <!-- ==================== SECCIÓN HERO ==================== -->
       <section class="hero mb-5">
         <div class="row align-items-center">
           <div class="col-lg-6 mb-4 mb-lg-0">
@@ -68,7 +86,6 @@
       <section aria-labelledby="instalaciones-title">
         <h2 id="instalaciones-title" class="h3 mb-4 text-center">Nuestras instalaciones</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
-          <!-- Alberca -->
           <article class="col">
             <div class="card h-100 shadow-sm">
               <img src="./images/alberca.png" class="card-img-top" alt="Vista de la alberca principal">
@@ -79,7 +96,6 @@
             </div>
           </article>
 
-          <!-- Recepción -->
           <article class="col">
             <div class="card h-100 shadow-sm">
               <img src="./images/recepcion.png" class="card-img-top" alt="Área de recepción con atención al cliente">
@@ -90,7 +106,6 @@
             </div>
           </article>
 
-          <!-- Regaderas y vestidores -->
           <article class="col">
             <div class="card h-100 shadow-sm">
               <img src="./images/regaderas.png" class="card-img-top" alt="Vestidores y regaderas modernas">
@@ -102,30 +117,63 @@
           </article>
         </div>
       </section>
+
+      <!-- ==================== SECCIÓN TESTIMONIOS ==================== -->
+      <section class="mt-5 text-center">
+        <h2 class="h3 mb-4">Lo que nuestros alumnos dicen</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <article class="col">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <p class="fst-italic">“Mi hijo aprendió a nadar en menos de tres meses. Los instructores son geniales.”</p>
+                <h3 class="h6 fw-bold mb-0">— Laura Gómez</h3>
+              </div>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <p class="fst-italic">“Excelente ambiente y atención personalizada. ¡Recomendado al 100%!”</p>
+                <h3 class="h6 fw-bold mb-0">— Carlos Méndez</h3>
+              </div>
+            </div>
+          </article>
+          <article class="col">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <p class="fst-italic">“Las instalaciones están impecables y el personal es muy amable.”</p>
+                <h3 class="h6 fw-bold mb-0">— Ana Torres</h3>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ==================== CALL TO ACTION SECUNDARIO ==================== -->
+      <section class="mt-5 py-5 text-center bg-light rounded shadow-sm">
+        <h2 class="fw-bold mb-3">¿Listo para comenzar tu aventura acuática?</h2>
+        <p class="mb-4">Únete a Mantarrayas hoy y descubre todos los beneficios de la natación.</p>
+        <a href="pages/contacto.html" class="btn btn-primary btn-lg">Contáctanos ahora</a>
+      </section>
     </div>
   </main>
 
-  <!-- ==================== FOOTER / PIE DE PÁGINA ==================== -->
-  <footer class="site-footer bg-dark text-black py-4">
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer bg-dark text-light py-4">
     <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
       <p class="mb-2 mb-md-0 small">&copy; 2025 Centro de Natación Mantarrayas</p>
+      <!-- Redes sociales -->
       <nav aria-label="Redes sociales">
         <ul class="nav">
-          <li class="nav-item">
-            <a href="https://www.facebook.com/centro.natacion.mantarrayas" class="nav-link text-black small" target="_blank">Facebook</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://www.instagram.com/centro_natacion_mantarrayas/" class="nav-link text-black small" target="_blank">Instagram</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://www.tiktok.com/@centro.natacion.mantarrayas" class="nav-link text-black small" target="_blank">TikTok</a>
-          </li>
+          <li class="nav-item"><a href="https://www.facebook.com/centro.natacion.mantarrayas" class="nav-link text-light small" target="_blank">Facebook</a></li>
+          <li class="nav-item"><a href="https://www.instagram.com/centro_natacion_mantarrayas/" class="nav-link text-light small" target="_blank">Instagram</a></li>
+          <li class="nav-item"><a href="https://www.tiktok.com/@centro.natacion.mantarrayas" class="nav-link text-light small" target="_blank">TikTok</a></li>
         </ul>
       </nav>
     </div>
   </footer>
 
-  <!-- ==================== SCRIPTS DE BOOTSTRAP ==================== -->
+  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
