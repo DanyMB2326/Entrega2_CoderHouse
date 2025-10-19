@@ -44,7 +44,7 @@ Puedes ver la página web publicada en Netlify a través del siguiente enlace:
 │── css/
 │   └── advanced.css
 │── scss/
-│   └── styles.scss
+│   └── advanced.scss
 │── images/
 │   ├── logo.png
 │   ├── alberca.png
