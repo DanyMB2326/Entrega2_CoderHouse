@@ -1,17 +1,20 @@
 # Centro de Natación Mantarrayas
 
-Página web del **Centro de Natación Mantarrayas**, diseñada para mostrar sus servicios, horarios, instructores y facilitar el contacto con los usuarios. Desarrollada con HTML5, CSS3 y Bootstrap 5 para una experiencia visual atractiva y responsiva.
+Página web del **Centro de Natación Mantarrayas**, diseñada para mostrar sus servicios, horarios, instructores y facilitar el contacto con los usuarios. Desarrollada con **HTML5**, **SCSS/SASS** y **Bootstrap 5** para una experiencia visual atractiva, dinámica y responsiva.
 
 ---
 
 ## 📌 Características
 
-- **Sección de Inicio:** Mensaje de bienvenida y llamado a la acción para inscribirse.  
-- **Servicios:** Información de programas para niños, adultos y nado libre, con precios y beneficios.  
-- **Horarios:** Tabla clara de clases por grupo y nivel.  
-- **Nosotros:** Presenta al equipo de instructores con fotos y especialidades.  
-- **Contacto:** Formulario, información de contacto y mapa de ubicación.  
-- **Navbar y Footer:** Menú responsivo y enlaces a redes sociales.
+- **Sección de Inicio / Hero:** Mensaje de bienvenida, imagen de portada, botones de llamado a la acción con animaciones y transiciones.  
+- **Instalaciones:** Cards con imágenes de la alberca, recepción y vestidores; efecto hover dinámico.  
+- **Testimonios:** Opiniones de alumnos con animaciones de aparición.  
+- **Call-to-Action Secundario:** Sección destacada invitando a contactar o inscribirse.  
+- **Navbar y Footer:** Menú responsivo, enlaces a redes sociales y diseño consistente con paleta de colores y sombras suaves.  
+- **SEO y Accesibilidad:** Meta tags descriptivos, Open Graph, Twitter Card y enfoque en `focus-visible` para navegación con teclado.  
+- **Animaciones avanzadas:** Hover en cards y botones, animaciones `fadeInUp`, `pulse` y `floatUp`; transiciones suaves para enlaces y elementos interactivos.  
+- **Responsive:** Uso de Grid y Flexbox correctamente aplicado, adaptado para dispositivos móviles, tablets y desktop.  
+- **Favicon:** Logo del centro como icono del sitio web.  
 
 ---
 
@@ -21,13 +24,12 @@ Puedes ver la página web publicada en Netlify a través del siguiente enlace:
 🔗 [https://mantarrayas-page.netlify.app](https://mantarrayas-page.netlify.app)
 
 ---
-
 ## 🛠 Tecnologías
 
 - **HTML5** – Estructura semántica del contenido.  
-- **CSS3 y Bootstrap 5** – Diseño moderno y responsivo.  
-- **SCSS/SASS** – Estilos organizados y reutilizables.  
-- **Google Maps Embed** – Ubicación del centro en la página de contacto.
+- **SCSS/SASS** – Variables, mixins, nesting, extend, operadores, animaciones y estilos avanzados.  
+- **Bootstrap 5** – Componentes y utilidades para diseño responsivo.  
+- **Google Maps Embed** – Ubicación del centro en la página de contacto.  
 
 ---
 
