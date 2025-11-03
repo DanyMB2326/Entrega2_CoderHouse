@@ -20,7 +20,10 @@ Página web del **Centro de Natación Mantarrayas**, diseñada para mostrar sus 
 
 ## 🌐 Visualización en línea
 
-Puedes ver la página web publicada en Netlify a través del siguiente enlace:  
+Puedes ver la página web con GitHub Pages a través del siguiente enlace:
+🔗 [https://danymb2326.github.io/Entrega2_CoderHouse/](https://danymb2326.github.io/Entrega2_CoderHouse/)
+
+o si lo prefieres desde Netlify:  
 🔗 [https://mantarrayas-page.netlify.app](https://mantarrayas-page.netlify.app)
 
 ---
