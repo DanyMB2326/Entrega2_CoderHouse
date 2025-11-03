@@ -50,6 +50,7 @@ Puedes ver la página web publicada en Netlify a través del siguiente enlace:
 │── images/
 │   ├── logo.png
 │   ├── alberca.png
+|   ├── recinto.png
 │   ├── entrenadores/
 │   │   ├── entrenadora1.png
 │   │   ├── entrenadora2.png
